@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "metadata": { "authors": ["Minecraft Bedrock Arabic"] },
+  "header": {
+    "name": "680 Player heads (BP)",
+    "description": "By: Minecraft Bedrock Arabic - Trying to collect as many player head as possible",
+    "min_engine_version": [1, 20, 70],
+    "uuid": "656dcac9-fd53-4e02-947f-cd6577537172",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "8a0163d6-21d8-458e-8200-0631031088a6",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/index.js",
+      "uuid": "a02a0370-d1da-417d-95a1-7c3dd174bebd",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    { "uuid": "0cfd2520-4751-4cc9-9661-b1c57953b3f2", "version": [1, 0, 0] },
+    { "module_name": "@minecraft/server", "version": "1.9.0" }
+  ]
+}
